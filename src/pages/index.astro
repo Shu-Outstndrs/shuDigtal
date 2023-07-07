@@ -1,15 +1,83 @@
 ---
+import UserInterface from '../components/interface.astro'
 ---
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>しゅーう/チーム逸般人</title>
+		<meta name="description" content="しゅーう/Shu チーム逸般人/Outstndrs">
+		<link rel="icon" href="./ShuSirokuro600.webp">
+		<head prefix="og: https://ogp.me/ns#" />
+		<meta property="og:url" content="https://shuwatanabe.vercel.app" />
+		<meta property="og:type" content="introduction" />
+		<meta property="og:title" content="Shu/Outstndrs" />
+		<meta property="og:description" content="しゅーう/Shu チーム逸般人/Outstndrs" />
+		<meta property="og:site_name" content="しゅーう/Shu" />
+		<meta property="og:image" content="https://shuwatanabe.vercel.app/ShuSirokuro600.webp" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@shu_out" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="">
+		<div class="bg-slate-100 mx-8 md:mx-32 lg:mx-44 xl:mx-64">
+			<div>
+				<UserInterface />
+			</div>
+			<main class="mt-32 ml-0.5 float-left lg:max-w-lg xl:max-w-xl 2xl:max-w-3xl absolute">
+				<h1 class="text-2xl md:text-3xl">しゅーう/チーム逸般人</h1>
+				<h3 class="text-lg md:text-xl mt-8">数学やデジタル分野が好きな14歳。3DCG、Webデザインなどに興味がある。</h3>
+
+				<div class="mt-16">
+					<h2 class="mb-10 pb-2 text-xl md:text-2xl">経歴</h2>
+				</div>
+				<ol class="mt-4 md:mt-8 relative">                  
+					<li class="mb-4 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-700">2023年7月1日</time>
+						<h3 class="text-lg font-semibold text-slate-900">HTML/TailwindCSSでweb制作を開始</h3>
+						<p class="mb-4 text-base font-normal text-gray-800">今まで『むずそうだから』という理由でプログラミングをしてなかったが、いざ初めて、HTML/CSSの全体像を理解したら、意外にできることがわかった。</p>
+						<!-- <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-slate-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a> -->
+					</li>
+					<li class="mb-3 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-700">2023年2月25日</time>
+						<h3 class="text-lg font-semibold text-gray-900">チーム逸般人で講習会を開催</h3>
+						<p class="text-base font-normal text-gray-800">マイクラで簡単なタワーの作り方や、オリジナルブロックの作り方を参加してくれた子供たちに教えました。約10人の前で話すのは初めてだったので、緊張しました。</p>
+					</li>
+					<li class="mb-3 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-700">2023年1月18日</time>
+						<h3 class="text-lg font-semibold text-gray-900">マインクラフトで計算機を制作</h3>
+						<p class="text-base font-normal text-gray-800">コンピューターサイエンスに興味を持ち、マイクラ内で2進数などを駆使して計算機を作った。</p>
+						<a href="https://twitter.com/shu_out/status/1615695431631278080" target="_blank" class="inline-flex items-center mt-2 mb-4 px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100/80 border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700">詳しく(twitter) <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
+					</li>
+					<li class="mb-3 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+						<time class="mb-1 text-sm font-normal leading-none">2022年11月6日</time>
+						<h3 class="text-lg font-semibold">Microsoft主催のIDEA Creation Workshopサポーター</h3>
+						<p class="text-base font-normal">IJPというアイデアのビジネスコンテストの企画で、マイクラを使ってアイデアを出すイベントのサポーターになった。</p>
+						<a href="https://ideaworkshop1.peatix.com/view" target="_blank" class="inline-flex items-center mt-2 mb-4 px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100/80 border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700">詳しく <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
+					</li>
+					<li class="mb-3 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-7000">2022年1月30日</time>
+						<h3 class="text-lg font-semibold text-gray-900">マイクラカップ受賞🏆&チーム逸般人結成</h3>
+						<p class="text-base font-normal text-gray-800">今まで自己肯定感が低かった私だったが、結果を出せ、肯定感が上がるいい機会だった。</p>
+						<a href="https://minecraftcup.com/2021/works/0306/" target="_blank" class="inline-flex items-center mr-1 px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100/80 border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700">詳しく <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
+						<a href="https://youtu.be/B7V0NbCkZ_Y/" target="_blank" class="inline-flex items-center mt-2 mb-4 px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100/80 border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700">動画 <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
+					</li>
+					<li class="mb-3 ml-4">
+						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+						<time class="mb-1 text-sm font-normal leading-none text-gray-700">2023年2月25日</time>
+						<h3 class="text-lg font-semibold text-gray-900"></h3>
+						<p class="text-base font-normal text-gray-800">マイクラで簡単なタワーの作り方や、オリジナルブロックの作り方を参加してくれた子供たちに教えました。約10人の前で話すのは初めてだったので、緊張しました。</p>
+					</li>
+				</ol>
+			</main>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
 	</body>
 </html>
