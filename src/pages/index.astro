@@ -1,5 +1,6 @@
 ---
 import UserInterface from '../components/interface.astro'
+import Footer from '../components/footer.astro'
 ---
 
 <html lang="en">
@@ -25,7 +26,7 @@ import UserInterface from '../components/interface.astro'
 			<div>
 				<UserInterface />
 			</div>
-			<main class="mt-32 ml-0.5 float-left absolute z-[-1]">
+			<main class="-mt-32 ml-0.5 float-left z-[-1] relative">
 				<h1 class="text-2xl md:text-3xl">しゅーう/チーム逸般人</h1>
 				<h3 class="text-lg md:text-xl mt-8 lg:max-w-lg xl:max-w-xl 2xl:max-w-3xl">数学やデジタル分野が好きな14歳。3DCG、Webデザインなどに興味がある。</h3>
 
@@ -68,13 +69,16 @@ import UserInterface from '../components/interface.astro'
 						<a href="https://minecraftcup.com/2021/works/0306/" target="_blank" class="inline-flex items-center mr-1 px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100/80 border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700">詳しく <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
 						<a href="https://youtu.be/B7V0NbCkZ_Y/" target="_blank" class="inline-flex items-center mt-2 mb-4 px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100/80 border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700">動画 <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
 					</li>
-					<li class="mb-3 ml-4">
+					<!-- <li class="mb-3 ml-4">
 						<div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
 						<time class="mb-1 text-sm font-normal leading-none text-gray-700">2023年2月25日</time>
 						<h3 class="text-lg font-semibold text-gray-900"></h3>
 						<p class="text-base font-normal text-gray-800">マイクラで簡単なタワーの作り方や、オリジナルブロックの作り方を参加してくれた子供たちに教えました。約10人の前で話すのは初めてだったので、緊張しました。</p>
-					</li>
+					</li> -->
 				</ol>
+				<div class="flex-inital">
+					<Footer />
+				</div>
 			</main>
 		</div>
 
